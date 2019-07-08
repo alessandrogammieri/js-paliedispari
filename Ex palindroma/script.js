@@ -23,13 +23,14 @@ function checkPalindromo(palindromo) {
     console.log(palindromoReverse);
   }
   if (palindromo == palindromoReverse) {
-    console.log("palindromo");
+    // return "è un palindromo";
     risultato = "è un palindromo";
   } else {
-    console.log("no palindromo");
+    // return "non è un palindromo";
     risultato = "non è un palindromo";
   }
   document.getElementById('mio_id').innerHTML = "La tua parola o frase " + risultato;
 }
 
 checkPalindromo(palindromo);
+// console.log("Questo " + checkPalindromo(palindromo));
