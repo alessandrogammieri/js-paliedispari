@@ -15,7 +15,7 @@ function checkPalindromo(palindromo) {
 
   // Con slip diventa un array di sottostringhe, ribalto e creo una nuova stringa
   palindromoReverse = palindromo.split("").reverse().toString();
-  console.log("creiamo un array di sottostringhe, invertiamo l'ordine degli elementi e convertiamo tutto in una stringa " + palindromo);
+  console.log("facciamo un array di sottostringhe, invertiamo l'ordine degli elementi e convertiamo tutto in una stringa " + palindromo);
 
   for (var i = 0; i < ((palindromoReverse.length)-1); i++) {
     console.log("Ciclo " + palindromoReverse);
